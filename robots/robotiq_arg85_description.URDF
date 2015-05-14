@@ -81,7 +81,7 @@
     </collision>
   </link>
   <joint
-    name="left_outer_knuckle_joint"
+    name="finger_joint"
     type="revolute">
     <origin
       xyz="0.0306011444260539 0 0.0627920162695395"
@@ -156,7 +156,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="-1"
       offset="0" />
   </joint>
@@ -218,7 +218,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="1"
       offset="0" />
   </joint>
@@ -280,7 +280,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="-1"
       offset="0" />
   </joint>
@@ -342,7 +342,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="-1"
       offset="0" />
   </joint>
@@ -404,7 +404,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="1"
       offset="0" />
   </joint>
@@ -466,7 +466,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="-1"
       offset="0" />
   </joint>
@@ -528,7 +528,7 @@
       velocity="2.0"
       effort="1000" />
     <mimic 
-      joint="left_outer_knuckle_joint"
+      joint="finger_joint"
       multiplier="1"
       offset="0" />
   </joint>
