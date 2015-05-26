@@ -150,15 +150,6 @@
       link="left_outer_finger" />
     <axis
       xyz="0 -1 0" />
-    <limit
-      lower="0"
-      upper="0.8757"
-      velocity="2.0"
-      effort="1000" />
-    <mimic 
-      joint="finger_joint"
-      multiplier="-1"
-      offset="0" />
   </joint>
   <link
     name="left_inner_knuckle">
@@ -522,14 +513,5 @@
       link="right_outer_finger" />
     <axis
       xyz="0 1 0" />
-    <limit
-      lower="0"
-      upper="0.8757"
-      velocity="2.0"
-      effort="1000" />
-    <mimic 
-      joint="finger_joint"
-      multiplier="1"
-      offset="0" />
   </joint>
 </robot>
