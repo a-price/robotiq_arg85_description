@@ -1,7 +1,5 @@
 <launch>
   <arg
-    name="model" />
-  <arg
     name="gui"
     default="False" />
   <param

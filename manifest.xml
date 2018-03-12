@@ -1,6 +1,0 @@
-<package>
-  <description brief="robotiq_arg85_description">robotiq_arg85_description</description>
-  <depend package="gazebo" />
-  <author>me</author>
-  <license>BSD</license>
-</package>
