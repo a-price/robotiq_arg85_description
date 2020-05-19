@@ -5,17 +5,20 @@
   <param
     name="robot_description"
     textfile="$(find robotiq_arg85_description)/robots/robotiq_arg85_description.URDF" />
-  <param
-    name="use_gui"
-    value="$(arg gui)" />
   <node
+    if="$(arg gui)"
+    name="joint_state_publisher_gui"
+    pkg="joint_state_publisher_gui"
+    type="joint_state_publisher_gui" />
+  <node
+    unless="$(arg gui)"
     name="joint_state_publisher"
     pkg="joint_state_publisher"
     type="joint_state_publisher" />
   <node
     name="robot_state_publisher"
     pkg="robot_state_publisher"
-    type="state_publisher" />
+    type="robot_state_publisher" />
   <node
     name="rviz"
     pkg="rviz"
